@@ -4,6 +4,10 @@ Welcome to the **To-Do List App Frontend Master Project**, a cutting-edge projec
 
 ---
 
+[alt](https://github.com/onepiece-coding/To-Do-List-App-Frontend-Master-Project/blob/main/public/thumbnail.png)
+
+---
+
 ## 📚 Table of Contents
 
 - [Features](#-features)
