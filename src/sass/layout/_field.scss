@@ -1,0 +1,37 @@
+
+@use "../variables/spaces" as *;
+@use "../variables/colors" as *;
+@use "../variables/font_sizes" as *;
+@use "../variables/radiuses" as *;
+
+.todo-app--form {
+    display: flex;
+    background-color: $secondary-color;
+    height: 60px;
+    border-radius: 60px;
+    .todo-app--input {
+        flex: 1;
+        padding: $md-space;
+        border: none;
+        background-color: transparent;
+        font-size: $md-font-size;
+        color: $text-color;
+        letter-spacing: 1px;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: $text-color;
+        }
+    }
+    .todo-app--add-task {
+        width: 60px;
+        height: 100%;
+        border-radius: $rounded;
+        border: none;
+        background-color: $primary-color;
+        font-size: $lg-font-size;
+        color: $white-color;
+        cursor: pointer;
+    }
+}

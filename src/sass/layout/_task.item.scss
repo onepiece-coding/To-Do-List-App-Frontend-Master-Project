@@ -1,0 +1,54 @@
+
+@use "../variables/colors" as *;
+@use "../variables/font_sizes" as *;
+@use "../variables/radiuses" as *;
+@use "../variables/spaces" as *;
+
+.todo-app--task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .todo-app--task-container {
+        display: flex;
+        align-items: center;
+        gap: $xs-space;
+        .todo-app--task-completion {
+            width: 2.4rem;
+            height: 2.4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid $border-color;
+            background-color: transparent;
+            border-radius: $rounded;
+            font-size: $sm-font-size;
+            color: $white-color;
+            cursor: pointer;
+        }
+        .todo-app--task-title {
+            font-size: $sm-font-size;
+            letter-spacing: 1px;
+            color: $text-color;
+        }
+    }
+    .todo-app--delete-task {
+        background-color: transparent;
+        border: none;
+        font-size: $lg-font-size;
+        color: $text-color;
+        cursor: pointer;
+        transition: color .4s;
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    &.completed {
+        .todo-app--task-completion {
+            background-color: $primary-color;
+            border-color: transparent;
+        }
+        .todo-app--task-title {
+            text-decoration: line-through;
+        }
+    }
+}

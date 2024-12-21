@@ -1,0 +1,9 @@
+
+@use "../variables/colors" as *;
+@use "../variables/font_sizes" as *;
+
+.todo-app--empty-list {
+    font-size: $sm-font-size;
+    letter-spacing: 1px;
+    color: $primary-color;
+}

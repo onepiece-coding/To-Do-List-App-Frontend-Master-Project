@@ -1,0 +1,8 @@
+
+@use "../variables/spaces" as *;
+
+.todo-app--tasks-list {
+    display: flex;
+    flex-direction: column;
+    gap: $md-space; /* The Gap between tasks */
+}

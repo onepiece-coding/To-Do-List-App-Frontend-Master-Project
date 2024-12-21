@@ -1,0 +1,24 @@
+
+@use "../variables/spaces" as *;
+@use "../variables/colors" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: $md-space;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    font-family: "Poppins", sans-serif;
+}

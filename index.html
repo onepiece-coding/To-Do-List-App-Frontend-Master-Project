@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="To-Do List App Frontend Master Project | TypeScript, OOP, SOLID Principles, Design Pattern, State Managment & Clean Code">
+    <title>To-Do List App Frontend Master Project | TypeScript, OOP, SOLID Principles, Design Pattern, State Managment & Clean Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <template id="primary-heading">
+      <!-- This is an HTML template element. The content inside this template is not rendered until it is explicitly used via JavaScript -->
+      <h2 class="todo-app--primary-heading" id="todo-app--primary-heading">
+        <!-- The primary heading of the To-Do List App -->
+        <p><span>To-Do</span> List App</p>
+        <!-- Icon for the To-Do List App's heading -->
+        <i class="fa-solid fa-list-check"></i>
+      </h2>
+    </template>
+
+    <template id="field">
+      <!-- A reusable template for the To-Do form -->
+      <form class="todo-app--form" id="todo-app--form">
+        <!-- Input field where the user can type a task title -->
+        <input 
+          type="text" 
+          class="todo-app--input" 
+          name="task-title--input"
+          id="task-title--input"
+          placeholder="Add your task"
+        >
+        <!-- Submit button to add the task -->
+        <button type="submit" class="todo-app--add-task" aria-label="add task button">
+          <!-- Icon for the "Add Task" button -->
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </form>
+    </template>
+
+    <template id="tasks-list">
+      <!-- Template for the tasks list container -->
+      <div class="todo-app--tasks-list" id="todo-app--tasks-list">
+        <!-- Host element for the empty list paragraph and task item -->
+        <!-- This is where tasks will be dynamically rendered -->
+      </div>
+    </template>
+
+    <!-- Template for an empty list message -->
+    <template id="empty-list">
+      <p class="todo-app--empty-list" id="todo-app--empty-list">
+        No Items To Show!
+      </p>
+    </template>
+
+    <!-- Template for individual task items -->
+    <template id="task-item">
+      <div class="todo-app--task-item" id="todo-app--task-item">
+        <div class="todo-app--task-container">
+          <span class="todo-app--task-completion">
+            <i class="fa-solid fa-check"></i>
+          </span>
+          <p class="todo-app--task-title"></p>
+        </div>
+        <button class="todo-app--delete-task" aria-label="delete task button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </template>
+
+    <div id="app" class="todo-app"></div> <!-- App Host Element -->
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

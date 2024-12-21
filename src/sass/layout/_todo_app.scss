@@ -1,0 +1,15 @@
+
+@use "../variables/spaces" as *;
+@use "../variables/colors" as *;
+@use "../variables/radiuses" as *;
+
+.todo-app {
+    width: 600px;
+    max-width: 100%;
+    padding: $md-space;
+    background-color: $white-color;
+    border-radius: $lg-radius;
+    display: flex;
+    flex-direction: column;
+    gap: $md-space;
+}
