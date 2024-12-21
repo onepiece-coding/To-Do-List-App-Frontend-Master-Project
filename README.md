@@ -14,8 +14,6 @@ Welcome to the **To-Do List App Frontend Master Project**, a cutting-edge projec
   
 - [Technologies Used](#-technologies-used)
   
-- [Design Principles](#-design-principles)
-  
 - [How to Contribute](#-how-to-contribute)
   
 - [License](#-license)  
@@ -98,21 +96,21 @@ We welcome contributions to improve this project!
    
 2. Create a new branch:
 
-   ``` bash
+    ``` bash
       git checkout -b feature-name
-   ```
+    ```
    
 3. Commit your changes:
    
-  ```bash
-  git commit -m "Add feature-name"
-  ```
+    ```bash
+    git commit -m "Add feature-name"
+    ```
 
 4. Push to the branch:
    
-  ```bash
-  git push origin feature-name
-  ```
+    ```bash
+    git push origin feature-name
+    ```
 
 5. Create a pull request.
 
