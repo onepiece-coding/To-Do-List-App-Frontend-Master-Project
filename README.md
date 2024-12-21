@@ -124,6 +124,6 @@ We welcome contributions to improve this project!
 
 Learn how to build this project step-by-step with in-depth explanations.
 
-**[]()**
+**[Biuld a To-Do List App With Vite, Sass, TypeScript, OOP, LocalStorage & Clean Code | Frontend Master Project](https://www.youtube.com/watch?v=5E81mzcPqa4)**
 
 💡 Happy Coding!
