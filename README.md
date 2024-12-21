@@ -58,23 +58,23 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    
-  ```bash
-   git clone https://github.com/onepiece-coding/To-Do-List-App-Frontend-Master-Project.git
-   
-   cd To-Do-List-App-Frontend-Master-Project
-  ```
+    ```bash
+    git clone https://github.com/onepiece-coding/To-Do-List-App-Frontend-Master-Project.git
+    
+    cd To-Do-List-App-Frontend-Master-Project
+    ```
   
 2. Install dependencies:
 
-  ```bash
+    ```bash
     npm install
-  ```
+    ```
 
 3. Run the development server:
 
-  ```bash
+    ```bash
     npm run dev
-  ```
+    ```
 
 4. Open the app in your browser at http://localhost:3000.
 
